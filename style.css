@@ -6,6 +6,14 @@
     font-family: "Roboto", sans-serif;
 }
 
+
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 li, a{
    font-size: 18px;
    color: #e5e7eb;
@@ -59,14 +67,14 @@ header{
     height: 250px;
     width: auto;
 }
-button{
+.firstbutton{
     align-self: flex-start;
     color: #fff;
     padding: 8px 22px;
     margin-top: 5px;
     border-radius: 6px;
     background-color: #3882f6;
-    border: none;
+    border-color: none;
 }
 
 .random{
@@ -94,7 +102,6 @@ button{
     border: 3px solid #3882f6;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     padding: 20px;
     width: 150px;
     height: 150px;
@@ -106,3 +113,75 @@ button{
     max-height: 120px;
 }
 
+.imag p{
+    margin-top: 20px;
+}
+
+.quotes{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    width: auto;
+    height: 200px;
+    gap: 8px;
+}
+
+.quotes p {
+    font-size: 36px;
+    font-style: italic;
+}
+
+#name{
+align-self: flex-end;
+}
+
+
+.signs-text {
+    text-align: left;
+}
+.sign-up{
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 30px 80px;
+    display: flex;
+    gap: 700px;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+#action{
+    color: white;
+}
+
+#action h3{
+    font-weight: 800;
+}
+
+.whitebutton{
+    color: #fff;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.footer{
+    align-items: center;
+    background-color: #1f2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
